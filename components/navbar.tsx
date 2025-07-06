@@ -73,6 +73,8 @@ export function Navbar() {
                 </div>
               </a>
             ))}
+            <a href="#contact">
+
             <div className="relative group">
               <div className="absolute inset-0 cursor-pointer bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full blur-lg opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
 
@@ -83,6 +85,7 @@ export function Navbar() {
                   </svg>
                 </span>
             </div>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

@@ -5,7 +5,13 @@
 /* Optional: Set default font */
 body {
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* Custom Utility Class for balanced text wrapping */
 @layer utilities {
