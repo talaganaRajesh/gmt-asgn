@@ -2,19 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: Set default font */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Custom Utility Class for balanced text wrapping */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
 
-/* Theme Variables for Light and Dark Modes */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -51,7 +48,6 @@ body {
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -87,24 +83,13 @@ body {
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
-
-/* Base Styles */
+/* 
 @layer base {
+  * {
+    @apply border-border;
+  }
   body {
+  
     @apply bg-background text-foreground;
   }
-
-  /* Apply border style only where necessary (form controls, etc.) */
-  input,
-  textarea,
-  select,
-  button {
-    @apply border border-border;
-  }
-}
-
-@layer base {
-  body {
-    @apply bg-white text-black; /* fallback until bg-background is fixed */
-  }
-}
+} */
